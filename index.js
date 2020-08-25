@@ -1,5 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
-    x = document.getElementById('text')
-    x.textContent = "This is really cool!";
-  });
+   updateText();
+});
   // Your code goes here
+
+  function updateText(){
+    const x = document.getElementById('text')
+    // console.log(x)
+    x.textContent = "This is really cool!";
+  }
